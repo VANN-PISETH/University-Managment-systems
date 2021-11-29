@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sforclassunder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sforclassunder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 577</value>
+  </data>
+  <data name="sforclassunder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1128, 10</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sforclassunder.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;sforclassunder.Name" xml:space="preserve">
+    <value>sforclassunder</value>
+  </data>
+  <data name="&gt;&gt;sforclassunder.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4</value>
+  </data>
+  <data name="&gt;&gt;sforclassunder.Parent" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;sforclassunder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sforclass.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sforclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 134</value>
+  </data>
+  <data name="sforclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1128, 10</value>
+  </data>
+  <data name="sforclass.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;sforclass.Name" xml:space="preserve">
+    <value>sforclass</value>
+  </data>
+  <data name="&gt;&gt;sforclass.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4</value>
+  </data>
+  <data name="&gt;&gt;sforclass.Parent" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;sforclass.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="paneladdstudenttoclass.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labeladdstudenttoclass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeladdstudenttoclass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 19.8pt, style=Bold</value>
+  </data>
+  <data name="labeladdstudenttoclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="labeladdstudenttoclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 34</value>
+  </data>
+  <data name="labeladdstudenttoclass.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labeladdstudenttoclass.Text" xml:space="preserve">
+    <value>Set Student</value>
+  </data>
+  <data name="&gt;&gt;labeladdstudenttoclass.Name" xml:space="preserve">
+    <value>labeladdstudenttoclass</value>
+  </data>
+  <data name="&gt;&gt;labeladdstudenttoclass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labeladdstudenttoclass.Parent" xml:space="preserve">
+    <value>paneladdstudenttoclass</value>
+  </data>
+  <data name="&gt;&gt;labeladdstudenttoclass.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSetstudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 82</value>
+  </data>
+  <data name="txtSetstudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 196</value>
+  </data>
+  <data name="txtSetstudent.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtSetstudent.Name" xml:space="preserve">
+    <value>txtSetstudent</value>
+  </data>
+  <data name="&gt;&gt;txtSetstudent.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4</value>
+  </data>
+  <data name="&gt;&gt;txtSetstudent.Parent" xml:space="preserve">
+    <value>paneladdstudenttoclass</value>
+  </data>
+  <data name="&gt;&gt;txtSetstudent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="paneladdstudenttoclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 220</value>
+  </data>
+  <data name="paneladdstudenttoclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 281</value>
+  </data>
+  <data name="paneladdstudenttoclass.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;paneladdstudenttoclass.Name" xml:space="preserve">
+    <value>paneladdstudenttoclass</value>
+  </data>
+  <data name="&gt;&gt;paneladdstudenttoclass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paneladdstudenttoclass.Parent" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;paneladdstudenttoclass.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelAddclass.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labeladdclass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labeladdclass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 19.8pt, style=Bold</value>
+  </data>
+  <data name="labeladdclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="labeladdclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 34</value>
+  </data>
+  <data name="labeladdclass.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labeladdclass.Text" xml:space="preserve">
+    <value>Add Class</value>
+  </data>
+  <data name="&gt;&gt;labeladdclass.Name" xml:space="preserve">
+    <value>labeladdclass</value>
+  </data>
+  <data name="&gt;&gt;labeladdclass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labeladdclass.Parent" xml:space="preserve">
+    <value>panelAddclass</value>
+  </data>
+  <data name="&gt;&gt;labeladdclass.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtaddclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 82</value>
+  </data>
+  <data name="txtaddclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 196</value>
+  </data>
+  <data name="txtaddclass.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtaddclass.Name" xml:space="preserve">
+    <value>txtaddclass</value>
+  </data>
+  <data name="&gt;&gt;txtaddclass.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4</value>
+  </data>
+  <data name="&gt;&gt;txtaddclass.Parent" xml:space="preserve">
+    <value>panelAddclass</value>
+  </data>
+  <data name="&gt;&gt;txtaddclass.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelAddclass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 220</value>
+  </data>
+  <data name="panelAddclass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 281</value>
+  </data>
+  <data name="panelAddclass.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;panelAddclass.Name" xml:space="preserve">
+    <value>panelAddclass</value>
+  </data>
+  <data name="&gt;&gt;panelAddclass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAddclass.Parent" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;panelAddclass.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblClassform.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblClassform.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClassform.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 24pt</value>
+  </data>
+  <data name="lblClassform.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 33</value>
+  </data>
+  <data name="lblClassform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 41</value>
+  </data>
+  <data name="lblClassform.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblClassform.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="&gt;&gt;lblClassform.Name" xml:space="preserve">
+    <value>lblClassform</value>
+  </data>
+  <data name="&gt;&gt;lblClassform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClassform.Parent" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;lblClassform.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelClassform.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelClassform.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelClassform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1128, 767</value>
+  </data>
+  <data name="panelClassform.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelClassform.Name" xml:space="preserve">
+    <value>panelClassform</value>
+  </data>
+  <data name="&gt;&gt;panelClassform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelClassform.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelClassform.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1128, 767</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
